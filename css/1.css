@@ -1,0 +1,94 @@
+html {
+  font-family: "Times New Roman";
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  height: 100%;
+  width: 960px;
+  background-color: aqua;
+  border: solid 1px black;
+}
+.nav {
+  height: 150px;
+  width: 100%;
+  background-color: brown;
+  border: 1px solid black;
+}
+.nav-left {
+  width: 40%;
+  height: 70%;
+  background-color: #ccc;
+  float: left;
+}
+.nav-left-1 {
+  padding: 20px;
+}
+.nav-right {
+  width: 60%;
+  height: 70%;
+  background-color: chocolate;
+  float: left;
+}
+.nav-right p {
+  margin: 10px;
+  color: white;
+  float: right;
+}
+.nav-right .text_max {
+  font-size: 28px;
+}
+.nav-right .text_min {
+  font-size: 20px;
+}
+.nav-footer {
+  width: 100%;
+  height: 30%;
+  background-color: green;
+  float: left;
+}
+.nav-footer .item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-footer .item-list .item-menu {
+  margin: 5px;
+  padding: 5px 5px 10px;
+  float: left;
+  height: 20px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 2px;
+  float: left;
+  text-align: center;
+  color: white;
+  background-color: orange;
+}
+.nav-footer .item-list .item-menu:hover {
+  background-color: white;
+  color: blue;
+}
+.main {
+  height: 500px;
+  width: 100%;
+  background-color: yellow;
+  float: left;
+}
+.main-left {
+  height: 100%;
+  width: 70%;
+  background-color: lightcoral;
+  border: 1px solid black;
+}
+.main-right {
+  height: 100%;
+  width: 30%;
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: red;
+}
